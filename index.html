@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YumExpress - Food Delivery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">🍕YumExpress</div>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#About">About</a>
+      <a href="#Follow">Follow</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cart">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Delicious food at your fingertips</h1>
+      <p>Fresh. Fast. Delivered with care.</p>
+      <input type="text" id="search" placeholder="Search food..." />
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Menu</h2>
+    <div id="menu-items" class="menu-items">
+      <!-- Menu items will be injected by JS -->
+    </div>
+    
+    
+  </section>
+  <section id="checkout" class="checkout-section">
+  <h2>Checkout - Enter Your Details</h2>
+  <form id="checkout-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Full Name" required />
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Email Address" required />
+    </div>
+    <div class="form-group">
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+    </div>
+    <div class="form-group">
+      <textarea name="address" placeholder="Delivery Address" required></textarea>
+    </div>
+    <button type="submit">Place Your Order</button>
+    <p id="form-response" class="form-response"></p>
+  </form>
+</section>
+
+
+  <section id="how-it-works" class="info-section">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Browse the menu & choose your favorite dishes</li>
+      <li>Add items to your cart</li>
+      <li>Place your order & enjoy at home</li>
+    </ol>
+  </section>
+
+  
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a fast and reliable food delivery service committed to bringing your favorite meals right to your doorstep.</p>
+  </section>
+  
+  <section id="follow" class="follow">
+    <h2>Follow Us</h2>
+    <p>Facebook</p>
+    <p>Instagram</p>
+    <p>Twitter</p>
+    <p>Youtube</p>
+    <p>Linkedin</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: Deepeshruhil123@gmail.com</p>
+    <p>Phone: +91 9811452754</p>
+  </section>
+
+  <footer>
+    <p>&copy; Deepesh Ruhil. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
